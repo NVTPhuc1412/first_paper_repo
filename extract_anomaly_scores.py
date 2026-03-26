@@ -319,7 +319,144 @@ def get_scores_for_model(
 
     return ticker_seq_scores, ticker_predictions, ticker_recons, test_start, test_len, value_cols
 
+def run_scoring_pipeline(
+    ticker, data_dir, raw_data_dir, scaler_path, out_dir,
+    models, batch_size=256,
+):
+    """Run anomaly scoring for a single ticker with all configured models.
+
+    This is the public API used by pipeline.py.
+
+    Args:
+        ticker:       Ticker symbol (e.g. 'NVDA').
+        data_dir:     Directory containing the scaled feature CSV.
+        raw_data_dir: Directory containing raw OHLCV CSVs (for dates/close).
+        scaler_path:  Path to the scaler .joblib file for this ticker.
+        out_dir:      Directory to save scores CSV.
+        models:       List of model config dicts (from pipeline_config).
+        batch_size:   DataLoader batch size.
+
+    Returns:
+        scores_df: pd.DataFrame with Date + score/prediction columns for each model.
+    """
+    os.makedirs(out_dir, exist_ok=True)
+
+    # Load scaler
+    if os.path.isdir(scaler_path):
+        # scaler_path is a directory — look for the ticker's scaler
+        import glob as _glob
+        candidates = _glob.glob(os.path.join(str(scaler_path), f"*{ticker}*scaler*.joblib"))
+        if candidates:
+            scaler_dict = {ticker: joblib.load(candidates[0])}
+        else:
+            scaler_dict = {}
+    elif os.path.isfile(scaler_path):
+        loaded = joblib.load(scaler_path)
+        if isinstance(loaded, dict):
+            scaler_dict = loaded
+        else:
+            scaler_dict = {ticker: loaded}
+    else:
+        scaler_dict = {}
+
+    # Read feature CSV to get dates and row count
+    ticker_csv = os.path.join(data_dir, f"{ticker}.csv")
+    if not os.path.exists(ticker_csv):
+        raise FileNotFoundError(f"Scaled feature CSV not found: {ticker_csv}")
+
+    df_features = pd.read_csv(ticker_csv)
+    n_rows = len(df_features)
+
+    # Get dates from raw data
+    raw_csv = os.path.join(raw_data_dir, f"{ticker}.csv")
+    if os.path.exists(raw_csv):
+        raw_df = pd.read_csv(raw_csv, usecols=['Date', 'Close'])
+        raw_df_tail = raw_df.iloc[-n_rows:].reset_index(drop=True)
+        dates = raw_df_tail['Date']
+        raw_close = raw_df_tail['Close']
+    else:
+        dates = pd.Series(range(n_rows), name='Date')
+        raw_close = None
+
+    # Build the result DataFrame
+    result_df = pd.DataFrame({'Date': dates})
+
+    value_cols = [c for c in df_features.columns
+                  if c not in ['Date', 'ticker', 'anomaly']
+                  and not c.startswith('Is_Anomaly')]
+
+    for model_cfg in models:
+        label = model_cfg['label']
+        detector = model_cfg['detector']
+        encoder = model_cfg['encoder']
+        model_path = model_cfg['path'] if 'path' in model_cfg else str(model_cfg.get('weights', ''))
+        threshold_path_val = model_cfg.get('threshold_path', None)
+
+        if not os.path.exists(model_path):
+            print(f"  ✗ Weights not found: {model_path} — skipping {label}")
+            continue
+
+        print(f"\n  Scoring with {model_cfg.get('name', label)}...")
+        try:
+            scores, preds, recons, test_start, test_len, cols = get_scores_for_model(
+                label, model_path, data_dir,
+                encoder=encoder, detector=detector,
+                target_tickers=[ticker],
+                batch_size=batch_size,
+                threshold_path=threshold_path_val,
+            )
+
+            # Unpack single-ticker results
+            score_arr = dict(scores).get(ticker)
+            pred_arr = dict(preds).get(ticker)
+            recon_arr = dict(recons).get(ticker)
+
+            score_col = model_cfg.get('score_col', f'anomaly_score_{label}')
+            pred_col = model_cfg.get('pred_col', f'prediction_{label}')
+
+            # Initialize columns
+            result_df[score_col] = np.nan
+            result_df[pred_col] = np.nan
+            result_df[f'recon_close_{label}'] = np.nan
+            result_df[f'recon_log_ret_{label}'] = np.nan
+
+            if score_arr is not None:
+                if detector == 'TranAD' and score_arr.ndim > 1:
+                    mean_scores = score_arr.mean(axis=-1)
+                else:
+                    mean_scores = score_arr
+                result_df.iloc[-test_len:, result_df.columns.get_loc(score_col)] = mean_scores
+
+            if pred_arr is not None:
+                result_df.iloc[-test_len:, result_df.columns.get_loc(pred_col)] = pred_arr
+
+            if recon_arr is not None and raw_close is not None and ticker in scaler_dict:
+                anchor_row = n_rows - test_len - 1
+                anchor_row = max(anchor_row, 0)
+                try:
+                    close_recon, log_ret_recon = _recon_to_close(
+                        recon_arr, scaler_dict[ticker], cols, raw_close, anchor_row
+                    )
+                    result_df.iloc[-test_len:, result_df.columns.get_loc(f'recon_close_{label}')] = close_recon
+                    result_df.iloc[-test_len:, result_df.columns.get_loc(f'recon_log_ret_{label}')] = log_ret_recon
+                except Exception as e:
+                    print(f"    Warning: Close reconstruction failed for {ticker}/{label}: {e}")
+
+        except Exception as e:
+            print(f"    Error scoring {label}: {e}")
+            import traceback
+            traceback.print_exc()
+
+    # Save scores CSV
+    out_csv = os.path.join(out_dir, f"{ticker}_scores.csv")
+    result_df.to_csv(out_csv, index=False)
+    print(f"\n  Saved scores → {out_csv} ({n_rows} rows)")
+
+    return result_df
+
+
 def main():
+
     target_tickers = ['NVDA', 'TSLA', 'INTC']
     test_dir = './data/engineered_analysis_data_stat'
     if not os.path.exists(test_dir):

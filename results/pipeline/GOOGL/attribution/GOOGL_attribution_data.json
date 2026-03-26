@@ -1,0 +1,66 @@
+{
+  "AT_2020-03-16": {
+    "label": "AT",
+    "date": "2020-03-16",
+    "score": 0.2751461863517761,
+    "top_headline": "Alphabet Down Over 9 %, on Pace for Largest Percent Decrease Since September 2008 Data Talk",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on March 16, 2020, was primarily driven by a massive, panic-induced market sell-off during the onset of the COVID-19 pandemic. Alphabet (GOOGL) experienced its worst single-day performance since 2008, exacerbated by negative analyst sentiment from firms like Evercore and the failure of Federal Reserve interventions to stabilize market confidence. While Google was involved in positive initiatives such as developing a coronavirus triage and testing website, these company-specific efforts were completely overwhelmed by the broader macroeconomic collapse and fears of long-term economic damage."
+  },
+  "AT_2023-10-25": {
+    "label": "AT",
+    "date": "2023-10-25",
+    "score": 0.14199703931808472,
+    "top_headline": "GOOGL Stock : Google Earnings Beat , Shares Fall As Cloud Computing Growth Misses",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in GOOGL's price on 2023-10-25 was primarily driven by a 'sell the news' reaction to its Q3 earnings report. While the company beat EPS and revenue expectations, the market focused on the underperformance of the Google Cloud division relative to Microsoft. This divergence in cloud growth, combined with investor concerns over the company's AI narrative during the earnings call, triggered a significant sell-off. The resulting price decline was severe enough to contribute to a broader correction in the Nasdaq and S&P 500 indices."
+  },
+  "AT_2023-07-26": {
+    "label": "AT",
+    "date": "2023-07-26",
+    "score": 0.1176384761929512,
+    "top_headline": "Alphabet earnings push stock up 7 %; CFO Ruth Porat to become president , chief investment officer",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly flagged for GOOGL on 2023-07-26 was driven primarily by a strong Q2 earnings beat that exceeded analyst expectations, particularly in the cloud computing and advertising segments. This performance effectively countered investor fears regarding competition from Microsoft's AI-integrated Bing, leading to a significant rally. The positive sentiment was further bolstered by the announcement that CFO Ruth Porat would transition to a new role as president and chief investment officer, signaling strategic continuity. The stock's performance on this day was notable for its decoupling from broader market trends, as it outperformed peers like Snap and navigated the pre-Fed meeting uncertainty."
+  },
+  "AT_2023-02-08": {
+    "label": "AT",
+    "date": "2023-02-08",
+    "score": 0.10619202256202698,
+    "top_headline": "Google ( GOOGL ) stock drops on shaky rollout of Bard AI features",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in GOOGL's price on February 8, 2023, was primarily driven by a high-profile product launch failure. During an AI event, Google's new chatbot, Bard, provided inaccurate information in a promotional advertisement, which undermined investor confidence in the company's ability to compete with Microsoft's AI-integrated search offerings. This 'chatbot blunder' triggered a significant sell-off, resulting in a loss of over $100 billion in market capitalization. The event was further amplified by broader market anxieties regarding the intensifying 'AI arms race' and the perceived threat to Google's core search business model."
+  },
+  "AT_2024-08-05": {
+    "label": "AT",
+    "date": "2024-08-05",
+    "score": 0.10435482859611511,
+    "top_headline": "U . S . judge rules Google breaking the law with monopoly on search in antitrust case",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on 2024-08-05 was primarily driven by the convergence of a landmark antitrust ruling and a severe, macro-driven market sell-off. The U.S. court decision declaring Google’s search business an illegal monopoly served as a company-specific catalyst that fundamentally challenged its competitive moat. This negative news coincided with broader market panic fueled by recession fears and a sharp correction in the Nasdaq, which triggered a flight from risk-on tech assets. The combination of these regulatory and macroeconomic pressures created a perfect storm for the observed price volatility."
+  },
+  "TranAD_2019-04-30": {
+    "label": "TranAD",
+    "date": "2019-04-30",
+    "score": 1.0888292789459229,
+    "top_headline": "Alphabet closes down after reporting slowing Google ad revenue",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on 2019-04-30 was driven by a negative earnings surprise from Alphabet, characterized by a rare miss in revenue growth and concerns over slowing ad traffic. This triggered the stock's worst single-day performance since 2012, as investors reacted to both the core financial results and a lack of transparency regarding specific business segments like YouTube. The sell-off was compounded by analyst downgrades and broader market sentiment shifts as institutional investors reassessed the company's growth trajectory. The combination of these factors created a significant deviation from historical price patterns, leading to the high anomaly score."
+  },
+  "TranAD_2022-02-02": {
+    "label": "TranAD",
+    "date": "2022-02-02",
+    "score": 0.5893351435661316,
+    "top_headline": "Google Stock Rises As Q4 Earnings Beat , Alphabet Announces 20 - For - 1 Stock Split",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly detected in GOOGL stock on 2022-02-02 was primarily driven by a dual-catalyst event: a massive Q4 earnings beat coupled with the unexpected announcement of a 20-for-1 stock split. The earnings results demonstrated strong growth in advertising and cloud revenue, which exceeded analyst expectations and triggered significant bullish momentum. The stock split announcement further amplified this movement by enhancing retail accessibility and signaling management's confidence in future performance. Together, these factors created a sharp, anomalous price increase that detached from the broader, more mixed market environment."
+  },
+  "TranAD_2025-09-03": {
+    "label": "TranAD",
+    "date": "2025-09-03",
+    "score": 0.48238807916641235,
+    "top_headline": "Google wont be forced to sell Chrome after judge rules divestment a  poor fit  in landmark antitrust case",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly detected in GOOGL on 2025-09-03 was driven by a landmark judicial ruling that exempted the company from divesting its Chrome browser. This decision effectively removed a significant long-term structural threat to Alphabet's business model, leading to an immediate and sharp appreciation in share price. The market reaction was amplified by widespread analyst confirmation and the positive spillover effect into tech-heavy indices. While other minor news items existed, this specific legal outcome acted as the clear primary catalyst for the detected price anomaly."
+  }
+}
