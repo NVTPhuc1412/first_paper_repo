@@ -52,7 +52,7 @@ def run_pipeline(cfg: PipelineConfig) -> None:
     # ── Stage 1: Fetch Stock Data ─────────────────────────────────────────
     print(f"[1/5] Fetching stock data for {ticker}...")
 
-    from scrapers_n_preprocessor.fetch import fetch_stock_data
+    from scrapers.fetch import fetch_stock_data
 
     try:
         ticker_df, market_df = fetch_stock_data(
@@ -71,7 +71,7 @@ def run_pipeline(cfg: PipelineConfig) -> None:
     # ── Stage 2: Feature Engineering ──────────────────────────────────────
     print(f"[2/5] Engineering features...")
 
-    from scrapers_n_preprocessor.feature_engineer_single import engineer_features
+    from scrapers.feature_engineer_single import engineer_features
 
     scaled_df, scaler, feature_names = engineer_features(
         ticker_df=ticker_df,

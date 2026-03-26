@@ -43,7 +43,7 @@ class PipelineConfig:
             "threshold": "None_Anomaly Transformer_percentile_thresholds.npy",
             "score_col": "anomaly_score_AT",
             "pred_col":  "prediction_AT",
-        },
+        },  
         {
             "label":    "TranAD",
             "name":     "TimesNet + TranAD",
