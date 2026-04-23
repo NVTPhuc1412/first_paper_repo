@@ -1,0 +1,74 @@
+{
+  "AT_2024-08-05": {
+    "label": "AT",
+    "date": "2024-08-05",
+    "score": 0.8267833590507507,
+    "top_headline": "Global Sell - Off Deepens Amid Worries About US Economy",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in NVDA's price on August 5, 2024, was primarily driven by a violent, macro-led global equity market rout fueled by intensifying recession fears in the United States. This broader market panic was exacerbated by sector-specific weakness, notably Intel's catastrophic earnings report and subsequent job cuts, which eroded confidence in the semiconductor space. Additionally, company-specific negative sentiment, including reports of a DOJ antitrust investigation and rumors of delays to next-generation AI chips, intensified selling pressure. These combined factors caused a massive liquidation of high-beta 'Magnificent Seven' stocks, with Nvidia suffering disproportionately as investors repriced the AI-growth narrative."
+  },
+  "AT_2025-01-27": {
+    "label": "AT",
+    "date": "2025-01-27",
+    "score": 0.5102800726890564,
+    "top_headline": "Nvidia Sinks Below 200 - Day Moving Average For First Time In 2 Years As DeepSeek Sparks Historic Technical Reset - NVIDIA ( NASDAQ : NVDA ), GraniteShares 2x Long NVDA Daily ETF ( NASDAQ : NVDL ) ",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly detected in NVDA on 2025-01-27 was primarily driven by the market's reaction to the emergence of the Chinese AI startup DeepSeek. Investors perceived DeepSeek's high-performance, low-cost model as a direct threat to the AI capital spending cycle that had previously supported NVIDIA's valuation. This triggered a massive technical sell-off, evidenced by the stock falling below its 200-day moving average and wiping out hundreds of billions in market capitalization. The panic was exacerbated by broader sector-wide fears, leading to a 'Sputnik moment' for the US tech industry that overwhelmed previous bullish sentiment."
+  },
+  "AT_2024-05-28": {
+    "label": "AT",
+    "date": "2024-05-28",
+    "score": 0.27439993619918823,
+    "top_headline": "Nvidia Stock Spikes To Record As AI Chipmaker Adds Elon Musk As Customer",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly in Nvidia's price behavior on May 28, 2024, was primarily driven by a convergence of high-impact news, most notably the announcement that Elon Musk's xAI became a new customer for Nvidia's hardware. This, combined with the continued momentum surrounding the 10-for-1 stock split and aggressive analyst price target hikes, created a perfect storm for institutional and retail buying pressure. Nvidia's role as the primary engine for the Nasdaq's move to new record highs further amplified the stock's volatility. Overall, the combination of fundamental growth catalysts and technical momentum fueled the significant price deviation flagged by the anomaly detection model."
+  },
+  "AT_2024-05-23": {
+    "label": "AT",
+    "date": "2024-05-23",
+    "score": 0.13071659207344055,
+    "top_headline": "Nvidia Stock Breaks Out On Jaw - Dropping Q1 Results , Outlook",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly flagged on May 23, 2024, was primarily driven by Nvidia's Q1 earnings report released after-hours on May 22, which significantly exceeded market expectations. The combination of a massive earnings beat, raised revenue guidance, and the surprise announcement of a 10-for-1 stock split triggered a sharp, historic price surge that pushed NVDA past the $1,000 threshold. This rally created a distinct decoupling from the broader market, as evidenced by the concurrent sharp decline in the Dow Jones. The massive volume and price movement resulting from these catalysts created the price behavior anomaly detected by the model."
+  },
+  "TranAD_2025-10-29": {
+    "label": "TranAD",
+    "date": "2025-10-29",
+    "score": 5.020609378814697,
+    "top_headline": "NVIDIA ( NVDA ) becomes first company to pass $5 trillion valuation",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly in Nvidia's price on 2025-10-29 was primarily driven by the company achieving the unprecedented $5 trillion market valuation milestone, which triggered massive institutional inflows and retail attention. This psychological barrier was reinforced by reports of easing geopolitical tensions regarding Blackwell chip sales to China and the strategic localization of production in Arizona. Strong fundamental validation from suppliers like SK Hynix, who reported a sold-out supply chain through 2026, provided the necessary technical justification for the surge. The stock effectively decoupled from broader market volatility related to Fed interest rate concerns, confirming its status as the singular leader of the current AI-driven bull market."
+  },
+  "TranAD_2025-04-09": {
+    "label": "TranAD",
+    "date": "2025-04-09",
+    "score": 4.567254543304443,
+    "top_headline": "Nvidia Soars 15 % as Trump Tariff Pause Sparks Tech Frenzy",
+    "top_direction": "POSITIVE",
+    "summary": "The price anomaly detected in NVDA on 2025-04-09 was primarily driven by a dramatic reversal in market sentiment surrounding US trade policy. After days of volatility caused by tariff fears, the market responded aggressively to news of a tariff pause for US allies and specific exemptions granted to Nvidia. This pivot from 'tariff-fueled sell-off' to 'tariff-relief surge' triggered a massive rebound, further amplified by institutional buying and technical recovery. The anomaly score reflects this sharp, news-driven transition from a bearish outlook to a 15% upward surge."
+  },
+  "TranAD_2025-10-28": {
+    "label": "TranAD",
+    "date": "2025-10-28",
+    "score": 4.282192707061768,
+    "top_headline": "Nvidia Just Made a $1 Billion Bet on Nokia . Should Investors Follow Its Lead ? ",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly flagged on 2025-10-28 was primarily driven by a confluence of high-impact corporate developments, most notably Nvidia's $1 billion strategic investment in Nokia and the localization of Blackwell GPU manufacturing. These tangible events acted as catalysts, reinforcing the bullish 'sovereign AI' and infrastructure narrative that propelled the stock toward a $5 trillion market cap. The resulting price surge was compounded by broader market optimism regarding tech earnings and favorable macro-trade sentiment, which created a feedback loop of high trading volume and speculative momentum. Consequently, the combination of concrete partnership news and psychological valuation milestones created the sharp deviation in price behavior detected by the model."
+  },
+  "TranAD_2025-06-13": {
+    "label": "TranAD",
+    "date": "2025-06-13",
+    "score": 3.7375519275665283,
+    "top_headline": "Stock Market Today : Dow Jones Dives 400 Points As Israel Attacks Iran ; Nvidia , Tesla Sell Off ( Live ) ",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly detection for NVDA on 2025-06-13 was primarily driven by the sudden escalation of the Israel-Iran conflict, which acted as a major catalyst for a broad-based market sell-off. This geopolitical shock, confirmed by multiple reports, triggered significant downside pressure on high-beta technology stocks, including NVDA. This negative sentiment was compounded by competitive pressures from AMD's aggressive push into AI infrastructure and ongoing concerns regarding NVDA's ability to navigate US-China export restrictions. Consequently, the combination of a macro geopolitical event and sector-specific competitive headwinds resulted in the flagged price anomaly."
+  },
+  "TranAD_2025-06-17": {
+    "label": "TranAD",
+    "date": "2025-06-17",
+    "score": 2.9739294052124023,
+    "top_headline": "Nvidia to exclude China from forecasts amid US chip export curbs , CNN reports",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on 2025-06-17 was likely driven by a collision between positive long-term AI hardware adoption (e.g., Blackwell integration, European expansion) and significant negative macro-factors. The escalation of the Iran-Israel conflict triggered a broad market sell-off, which was exacerbated for NVDA specifically by the news regarding export restrictions in China. This combination of geopolitical risk and specific regulatory headwinds created a sharp, anomalous price shift as markets priced in lower growth expectations and heightened systemic risk."
+  }
+}

@@ -89,7 +89,7 @@ def _simple_query(ticker: str) -> str:
     return f'({company} OR {ticker}) (stock OR earnings OR market) sourcelang:english -forum -thread'
 
 
-def generate_gdelt_query(ticker: str, client=None, model: str = "gemini-2.5-flash") -> str:
+def generate_gdelt_query(ticker: str, client=None, model: str = "gemini-3.1-flash-lite") -> str:
     """Generate a GDELT search query for a ticker.
 
     Uses a simple template-based approach first (reliable).

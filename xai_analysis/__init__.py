@@ -74,6 +74,15 @@ def run_xai_for_ticker(
     enc_in = len(value_cols)
     data = torch.from_numpy(df[value_cols].to_numpy().astype(np.float32))
 
+    # Compute feature-wise mean of normal (non-anomalous) periods for IG baseline
+    if 'anomaly' in df.columns:
+        normal_mask = df['anomaly'] == 0
+        normal_mean_np = df.loc[normal_mask, value_cols].mean().values.astype(np.float32)
+    else:
+        # Fallback: use the entire dataset mean
+        normal_mean_np = df[value_cols].mean().values.astype(np.float32)
+    normal_baseline = torch.from_numpy(normal_mean_np).to(device)
+
     # Load dates from raw data
     raw_csv = os.path.join(raw_data_dir, f'{ticker}.csv')
     if os.path.exists(raw_csv):
@@ -168,7 +177,8 @@ def run_xai_for_ticker(
                 window.requires_grad_(True)
                 try:
                     ig_attr = run_integrated_gradients(
-                        wrapper, window, value_cols, n_steps=ig_n_steps
+                        wrapper, window, value_cols, n_steps=ig_n_steps,
+                        normal_baseline=normal_baseline,
                     )
                     feat_imp = np.abs(ig_attr).mean(axis=0)
                 except Exception as e:

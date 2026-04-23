@@ -234,3 +234,5 @@ __pycache__/
 logs/
 .ipynb_checkpoints/
 paper/
+scrapers/stock_data_scraper/output/
+reports/

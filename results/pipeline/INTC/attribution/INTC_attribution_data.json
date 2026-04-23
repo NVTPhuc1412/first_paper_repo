@@ -1,0 +1,74 @@
+{
+  "AT_2024-08-02": {
+    "label": "AT",
+    "date": "2024-08-02",
+    "score": 1.0028645992279053,
+    "top_headline": "Intel ( INTC ) to suspend dividend payout as of Q4 2024 , announces $10 billion cost reduction plan",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in INTC stock on August 2, 2024, was primarily driven by a disastrous Q2 earnings report that significantly missed revenue and profit expectations. The market reacted violently to the company's dual announcement of a 15% headcount reduction and the suspension of its dividend, which signaled deep-seated operational struggles. This fundamental weakness was further compounded by a broader market sell-off fueled by rising US recession fears and disappointing macroeconomic data. The combination of company-specific restructuring shocks and a deteriorating macro environment resulted in one of the worst single-day stock performances in Intel's history."
+  },
+  "AT_2020-03-16": {
+    "label": "AT",
+    "date": "2020-03-16",
+    "score": 0.5063658952713013,
+    "top_headline": "Market Freezes Within Minutes of Opening as COVID - 19 Pushes S & P 500 , Stocks Down Further [ Updated ] ",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged for INTC on March 16, 2020, was primarily driven by extreme market-wide volatility and panic selling related to the COVID-19 pandemic, which caused a trading halt. This macro pressure was compounded by specific competitive narratives, as articles comparing Intel unfavorably to AMD gained traction during this period of heightened scrutiny. While Intel's internal operational updates and supply agreements provided some firm-specific news, they were insufficient to offset the negative sentiment surrounding the broader tech sector's vulnerability to a potential demand shock."
+  },
+  "AT_2020-07-24": {
+    "label": "AT",
+    "date": "2020-07-24",
+    "score": 0.2828117609024048,
+    "top_headline": "Intel ( INTC ) Stock Tanks 12 % Despite Good Q2 Results Due to Delay in Launching New Chips",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly detected in INTC on 2020-07-24 was primarily driven by a sharp negative market reaction to the company's Q2 earnings report, which revealed a significant delay in the production of next-generation 7nm chips. While Intel actually beat earnings expectations, the uncertainty surrounding its manufacturing roadmap triggered a massive sell-off as investors pivoted toward competitors like AMD. This sentiment was further amplified by broader market concerns regarding U.S.-China trade tensions and a general cooling of tech stock valuations. The resulting 12-18% decline represented a major loss of confidence from Wall Street, causing a localized price anomaly."
+  },
+  "AT_2024-04-26": {
+    "label": "AT",
+    "date": "2024-04-26",
+    "score": 0.2133031189441681,
+    "top_headline": "Intel Stock Drops On Chipmaker Weak Q2 Outlook | Investor Business Daily",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in INTC's price on 2024-04-26 was driven by a negative market reaction to the company's Q1 earnings report and, more importantly, its weak Q2 guidance. Investors were particularly spooked by the combination of an earnings revenue miss and commentary regarding weak PC chip demand and intense competitive pressure. Additionally, significant losses within Intel's foundry business further eroded investor confidence, leading to a sharp decline in share price that stood in contrast to the broader tech sector's performance."
+  },
+  "TranAD_2025-09-18": {
+    "label": "TranAD",
+    "date": "2025-09-18",
+    "score": 2.201500654220581,
+    "top_headline": "Intel stock jumps 27 % at Wall Street open after big tech firm Nvidia $5 billion investment update Details here",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly in INTC stock on 2025-09-18 was driven by a major strategic partnership and a $5 billion capital injection from Nvidia. This news transformed market sentiment from skepticism regarding Intel’s turnaround efforts into aggressive optimism, triggering a massive price surge. The collaboration, which includes co-developing AI-enabled CPUs and data center hardware, provided a necessary catalyst for the stock's best performance in decades. The anomaly score reflects this sudden, sharp reversal in market positioning following a period of institutional divestment and negative sentiment."
+  },
+  "TranAD_2024-08-02": {
+    "label": "TranAD",
+    "date": "2024-08-02",
+    "score": 1.6275956630706787,
+    "top_headline": "Intel ( INTC ) to suspend dividend payout as of Q4 2024 , announces $10 billion cost reduction plan",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly detection for INTC on 2024-08-02 was driven by a perfect storm of fundamental failure and macro-economic headwinds. Intel reported a significant earnings miss, accompanied by a shocking 15% workforce reduction and the suspension of its dividend, signaling deep structural distress. This news triggered a historic single-day sell-off, exacerbated by broader market anxiety regarding the U.S. economy and recession fears. The combination of company-specific operational failures and a deteriorating macro outlook led to extreme volatility and the high anomaly score flagged by the model."
+  },
+  "TranAD_2020-07-24": {
+    "label": "TranAD",
+    "date": "2020-07-24",
+    "score": 1.2381408214569092,
+    "top_headline": "Intel ( INTC ) Stock Tanks 12 % Despite Good Q2 Results Due to Delay in Launching New Chips",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on 2020-07-24 was driven by a significant divergence between Intel's reported Q2 earnings beat and the market's intense reaction to the company's admission of a six-month delay in its 7nm chip manufacturing process. This operational setback prompted immediate and severe selling pressure, leading to a double-digit percentage plunge in INTC stock. The situation was compounded by broader market sentiment, including rising U.S.-China tensions and a rotation of capital into competitors like AMD, which surged on the news. The combination of failed technical roadmaps and loss of Wall Street confidence created the sharp, anomalous price movement identified by the model."
+  },
+  "TranAD_2021-10-22": {
+    "label": "TranAD",
+    "date": "2021-10-22",
+    "score": 0.6492213010787964,
+    "top_headline": "Intel stock drops 10 % after analyst downgrades over concern about falling margins",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged in INTC stock on 2021-10-22 was primarily driven by a negative market reaction to the company's Q3 earnings report released the prior evening. Despite beating EPS expectations, the stock plummeted due to a revenue miss, concerns over narrowing profit margins, and management's warning that the global chip shortage would persist until at least 2023. These factors led to significant analyst downgrades and a roughly 10-12% decline in share price, which also acted as a drag on broader tech indices like the Nasdaq during that trading session."
+  },
+  "TranAD_2022-07-29": {
+    "label": "TranAD",
+    "date": "2022-07-29",
+    "score": 0.6031408309936523,
+    "top_headline": "Intel ( INTC ) stock drops 11 % on lowered revenue and earnings guidance",
+    "top_direction": "NEGATIVE",
+    "summary": "The price anomaly in INTC on July 29, 2022, was driven by a disastrous Q2 earnings report released after the market close on July 28. Intel significantly missed revenue and earnings targets, cited weakness in the PC market, and slashed its full-year guidance, resulting in a rare quarterly loss. This fundamental deterioration led to an immediate double-digit percentage drop in share price the following morning. The sentiment was further soured by the symbolic event of AMD overtaking Intel in market capitalization, which underscored the company's loss of competitive standing."
+  }
+}

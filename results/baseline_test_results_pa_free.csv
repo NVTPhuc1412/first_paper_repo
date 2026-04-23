@@ -1,0 +1,13 @@
+encoder,detector,version,epoch,test_set,threshold_strategy,accuracy,precision,recall,f1,auc,recall_point,recall_contextual,recall_collective
+None,IsolationForest,default,N/A,Synthetic_Easy,pot,0.9197,0.3444,0.3897,0.3657,0.7474,0.3467,0.3876,0.4131
+None,IsolationForest,default,N/A,Synthetic_Easy,percentile,0.9420,0.5328,0.1854,0.2751,0.7474,0.3200,0.1079,0.2094
+None,IsolationForest,default,N/A,Synthetic_Medium,pot,0.9185,0.2783,0.2338,0.2541,0.6708,0.3253,0.2478,0.1732
+None,IsolationForest,default,N/A,Synthetic_Medium,percentile,0.9396,0.4529,0.0836,0.1412,0.6708,0.2600,0.0489,0.0381
+None,IsolationForest,default,N/A,Synthetic_Hard,pot,0.9149,0.1623,0.1048,0.1273,0.5902,0.2507,0.0885,0.0517
+None,IsolationForest,default,N/A,Synthetic_Hard,percentile,0.9384,0.3010,0.0305,0.0554,0.5902,0.1360,0.0094,0.0033
+None,IsolationForest,default,N/A,Real_Easy,pot,0.8340,0.1978,0.5946,0.2969,0.7800,0.4093,0.6964,0.5689
+None,IsolationForest,default,N/A,Real_Easy,percentile,0.9068,0.2990,0.4331,0.3538,0.7800,0.3667,0.5386,0.3459
+None,IsolationForest,default,N/A,Real_Medium,pot,0.8248,0.1532,0.4358,0.2267,0.7028,0.4027,0.5426,0.3312
+None,IsolationForest,default,N/A,Real_Medium,percentile,0.8990,0.2211,0.2831,0.2483,0.7028,0.3467,0.3678,0.1570
+None,IsolationForest,default,N/A,Real_Hard,pot,0.8157,0.1184,0.3221,0.1731,0.6346,0.4160,0.3037,0.2986
+None,IsolationForest,default,N/A,Real_Hard,percentile,0.8905,0.1477,0.1733,0.1595,0.6346,0.3187,0.1605,0.1194

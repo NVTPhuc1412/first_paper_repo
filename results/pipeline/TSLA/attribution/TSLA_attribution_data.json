@@ -1,0 +1,82 @@
+{
+  "AT_2020-03-16": {
+    "label": "AT",
+    "date": "2020-03-16",
+    "score": 0.26129913330078125,
+    "top_headline": "TSLA Stock Falls 15 . 49 % in Premarket Today , Down 40 % from ATH of $917",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged for TSLA on March 16, 2020, was driven by a convergence of extreme macroeconomic panic and sector-specific fears. The broader market collapse, exacerbated by the Federal Reserve's emergency rate cuts, triggered massive sell-offs in high-growth, high-beta assets. Tesla specifically faced compounding negative pressure from analyst downgrades and industry-wide warnings that COVID-19 would halt automotive production and destroy demand. These factors combined to create a period of intense volatility and forced liquidation, which the Anomaly Transformer model correctly identified as a significant deviation from standard trading patterns."
+  },
+  "AT_2023-01-26": {
+    "label": "AT",
+    "date": "2023-01-26",
+    "score": 0.2508416771888733,
+    "top_headline": "Tesla ( TSLA ) Q4 2022 earnings results beat EPS and revenue expectations",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly flagged on 2023-01-26 was primarily driven by Tesla's Q4 2022 earnings report, which exceeded Wall Street expectations for both revenue and EPS. Investor sentiment shifted dramatically positive following Elon Musk's commentary on record-breaking vehicle demand, which alleviated long-standing fears regarding a slowdown in growth. This fundamental catalyst was amplified by technical momentum as the stock cleared key resistance levels, leading to significant buying pressure and an upward price surge. Analyst upgrades following the release further solidified the bullish trend, contributing to the outlier price action observed by the model."
+  },
+  "AT_2025-03-10": {
+    "label": "AT",
+    "date": "2025-03-10",
+    "score": 0.24496498703956604,
+    "top_headline": "Tesla stock tumbles over 10 %, wiping out post - election gains as demand worries continue to weigh",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on March 10, 2025, was driven by a convergence of poor fundamental performance and deteriorating investor sentiment. Specifically, reports of a 45% plunge in European sales fueled concerns over weakening demand, which were exacerbated by the erosion of the stock's post-election valuation. Furthermore, persistent political controversy surrounding Elon Musk and the broader market's reaction to potential recessionary economic policies created a 'perfect storm' that triggered the stock's worst single-day performance in five years."
+  },
+  "AT_2022-03-28": {
+    "label": "AT",
+    "date": "2022-03-28",
+    "score": 0.1922888457775116,
+    "top_headline": "Tesla Moves To Split Stock And Pay Dividend",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly flagged on March 28, 2022, was primarily driven by Tesla's surprise announcement that it would seek shareholder approval for a stock split and dividend payment. This news triggered a massive surge in buying volume as retail investors reacted to the bullish signal, which often precedes increased accessibility and institutional interest. While the stock faced simultaneous negative pressure from the closure of its Shanghai factory due to COVID-19 lockdowns, the excitement surrounding the stock split dominated market sentiment. Consequently, the stock experienced a parabolic move, significantly deviating from its standard price behavior and triggering the anomaly detection."
+  },
+  "AT_2025-09-15": {
+    "label": "AT",
+    "date": "2025-09-15",
+    "score": 0.18414267897605896,
+    "top_headline": "Tesla ( TSLA ) shares jump on news Elon Musk bought nearly $1 billion worth of the stock on Friday",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly detected in TSLA on 2025-09-15 was primarily driven by the massive insider purchase of $1 billion worth of shares by Elon Musk, which served as a definitive catalyst for the stock's surge. This event effectively reinforced existing bullish sentiment regarding Q3 delivery expectations and the company's autonomous driving ambitions. While there were minor headwinds from institutional divestments and external critiques regarding executive compensation, the overwhelming market reaction was defined by the positive signal sent by the CEO's capital commitment."
+  },
+  "TranAD_2021-11-02": {
+    "label": "TranAD",
+    "date": "2021-11-02",
+    "score": 2.4401280879974365,
+    "top_headline": "Musk says Hertz deal isnt signed and questions Tesla rally after the announcement",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly detected on 2021-11-02 was primarily driven by a sharp intraday reversal triggered by CEO Elon Musk. After the stock had reached record highs based on the anticipation of a massive Hertz order, Musk tweeted that no contract had been signed, causing a rapid sell-off and erasing billions in market capitalization. This volatility was further exacerbated by a concurrent NHTSA vehicle recall notice. The event serves as a classic example of social-media-driven market sensitivity, where positive momentum was abruptly halted by corporate governance uncertainty."
+  },
+  "TranAD_2021-11-01": {
+    "label": "TranAD",
+    "date": "2021-11-01",
+    "score": 2.310379981994629,
+    "top_headline": "Tesla Stock Pops As It Opens Supercharger Network To Other EVs In Europe",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly in Tesla’s price behaviour on November 1, 2021, was primarily driven by a combination of strong operational news and intense retail-driven momentum. The strategic decision to open the European Supercharger network and the securing of a multi-year lithium supply contract provided fundamental catalysts that underscored Tesla's market leadership. This, coupled with widespread media coverage regarding the stock's record-breaking climb and a massive retail-held stake, created a powerful feedback loop. While political friction between Elon Musk and the Biden administration introduced some underlying uncertainty, the overall market sentiment remained overwhelmingly bullish, propelling the stock to new all-time highs."
+  },
+  "TranAD_2025-03-10": {
+    "label": "TranAD",
+    "date": "2025-03-10",
+    "score": 2.041146993637085,
+    "top_headline": "Tesla stock tumbles over 10 %, wiping out post - election gains as demand worries continue to weigh",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on 2025-03-10 was primarily driven by a 'perfect storm' of company-specific fundamental deterioration and broader macroeconomic anxiety. Tesla faced severe headwinds from plummeting European sales and growing brand-image backlash, manifested in physical protests and public rejection of the CEO's political involvement. This company-specific weakness was significantly amplified by a systemic market rout, as investors reacted negatively to tariff uncertainty and recession warnings from the Trump administration. The combination of wiped-out post-election gains and fading demand created a high-volatility event, leading to the substantial anomaly score recorded."
+  },
+  "TranAD_2021-10-25": {
+    "label": "TranAD",
+    "date": "2021-10-25",
+    "score": 1.693678379058838,
+    "top_headline": "Tesla Stock up Nearly 11 % After Hertz Order of 100 , 000 Cars",
+    "top_direction": "POSITIVE",
+    "summary": "The price anomaly detected on 2021-10-25 was primarily driven by the announcement of a landmark deal where Hertz committed to purchasing 100,000 Tesla vehicles. This fundamental news, combined with a significant price target upgrade from Morgan Stanley, triggered a massive surge in buying volume. The resulting momentum, exacerbated by a gamma squeeze in the options market, pushed Tesla’s market capitalization above the $1 trillion threshold. This created a feedback loop of positive sentiment and institutional inflows that culminated in an anomalous 11% single-day price jump."
+  },
+  "TranAD_2021-10-28": {
+    "label": "TranAD",
+    "date": "2021-10-28",
+    "score": 1.5826283693313599,
+    "top_headline": "Tesla Stock up Nearly 11 % After Hertz Order of 100 , 000 Cars",
+    "top_direction": "POSITIVE",
+    "summary": "The price anomaly observed on October 28, 2021, was the culmination of a massive rally triggered by the Hertz 100,000-vehicle order announced on October 25. This fundamental news propelled Tesla into the $1 trillion market cap club, attracting significant retail and institutional capital. The price action was further amplified by a gamma squeeze in the options market and positive analyst revisions, particularly from Morgan Stanley. By October 28, the stock was experiencing elevated volatility and momentum as market participants recalibrated the stock's valuation following the news of the Uber partnership and continued institutional bullishness."
+  }
+}

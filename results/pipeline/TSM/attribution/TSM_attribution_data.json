@@ -1,0 +1,74 @@
+{
+  "AT_2024-08-05": {
+    "label": "AT",
+    "date": "2024-08-05",
+    "score": 0.19053857028484344,
+    "top_headline": "Intel shares plunge 28 %, dragging down global chip stocks",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in TSM stock on August 5th was primarily driven by a 'perfect storm' of sector-specific and macroeconomic headwinds. The massive sell-off in Intel shares on August 2nd acted as a catalyst, triggering a broader repricing of semiconductor stocks and raising fears about the sustainability of the AI demand cycle. These concerns were exacerbated by rising recession fears in the U.S., which led to a significant market correction in Asia, specifically targeting the TAIEX. The resulting capital outflow from foreign institutional investors and the overall risk-off sentiment in the global tech sector created the conditions for the detected price anomaly."
+  },
+  "AT_2020-03-16": {
+    "label": "AT",
+    "date": "2020-03-16",
+    "score": 0.1732761412858963,
+    "top_headline": "Taiwan shares under pressure after Fed rate cut",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged for TSM on March 16, 2020, was primarily driven by extreme macro-volatility in the Taiwanese equity market following global panic regarding the COVID-19 pandemic and the Federal Reserve's emergency rate interventions. TSM, as the largest constituent of the Taiwan Stock Exchange, experienced significant downward pressure alongside the broader market indices. Simultaneously, analyst target price cuts and reports of operational challenges created a negative narrative. However, the anomaly score likely reflects the tension between general market capitulation and specific firm-level updates regarding TSMC's efforts to protect its critical 5nm production lines from disruption."
+  },
+  "AT_2025-04-07": {
+    "label": "AT",
+    "date": "2025-04-07",
+    "score": 0.15435701608657837,
+    "top_headline": "Taiwan market plunges record 9 . 7 % at open",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly flagged on April 7, 2025, in TSM stock was primarily driven by a severe, tariff-induced market rout that hit the Taiwanese stock exchange. The combination of the announcement of new U.S. tariffs and the subsequent record-breaking 9.7% decline in the TAIEX created extreme volatility for major regional chipmakers. This macro-level shock, compounded by ongoing trade tensions and regulatory intervention in the form of tightened short-selling rules, forced a significant re-pricing of TSM shares. The anomaly reflects the market's aggressive reaction to the heightened geopolitical and trade policy risks impacting the semiconductor supply chain."
+  },
+  "AT_2020-07-24": {
+    "label": "AT",
+    "date": "2020-07-24",
+    "score": 0.0861550122499466,
+    "top_headline": "Why Taiwan Semiconductor Stock Jumped Today",
+    "top_direction": "POSITIVE",
+    "summary": "The price anomaly detected in TSM on 2020-07-24 was primarily driven by a significant industry shift following Intel's admission of manufacturing delays for its 7nm chips. As Intel faced a massive sell-off due to these technical failures, investors rotated capital into competitors and alternative foundries, viewing TSM as the primary beneficiary of Intel's loss in manufacturing dominance. This caused TSM stock to surge over 9% to record highs on the same day as the Intel market reaction. The anomaly is a clear example of a 'rival gain' effect within the semiconductor sector."
+  },
+  "TranAD_2022-11-15": {
+    "label": "TranAD",
+    "date": "2022-11-15",
+    "score": 0.9218142032623291,
+    "top_headline": "TSM Stock Surges After Warren Buffett Takes Big Stake | Investor Business Daily",
+    "top_direction": "POSITIVE",
+    "summary": "The anomaly flagged on 2022-11-15 was almost exclusively driven by the disclosure that Warren Buffett’s Berkshire Hathaway had acquired a $4.1 billion stake in Taiwan Semiconductor (TSM). This revelation, contained in a Q3 13F filing, acted as a powerful signal that triggered massive buying, resulting in an 11-13% price surge—the largest single-day move for the stock since 2020. Market participants interpreted the move as a high-conviction vote of confidence in TSM’s long-term business model despite ongoing geopolitical tensions. The surge was further amplified by a generally positive broader market environment, which was reacting to cooling inflation data on the same day."
+  },
+  "TranAD_2020-07-27": {
+    "label": "TranAD",
+    "date": "2020-07-27",
+    "score": 0.38911646604537964,
+    "top_headline": "Taiwan Semi stock soars toward another record in wake of Intel outsourcing announcement",
+    "top_direction": "POSITIVE",
+    "summary": "The price anomaly observed in TSM on 2020-07-27 was driven by a massive sector rotation following Intel's public announcement of significant delays in its next-generation 7nm chip production. Market participants aggressively reallocated capital from Intel to TSM, viewing the latter as the primary beneficiary of Intel's manufacturing woes and prospective outsourcing needs. This sentiment was further amplified by reports of a substantial new chip order for TSM, which catalyzed an 11% spike in share price and propelled the Taiwan TAIEX index to record highs. The combination of Intel's competitive failure and the resulting surge in TSM's market leadership created a clear, news-driven catalyst for the observed price anomaly."
+  },
+  "TranAD_2025-04-07": {
+    "label": "TranAD",
+    "date": "2025-04-07",
+    "score": 0.35034891963005066,
+    "top_headline": "Taiwan market plunges record 9 . 7 % at open",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in TSM stock on April 7, 2025, was primarily driven by a massive, record-breaking 9.7% sell-off in the broader Taiwanese stock market. This crash was fundamentally catalyzed by investor fears surrounding the implementation of new U.S. tariffs under the Trump administration. The negative sentiment was compounded by a sectoral rout in chip stocks, which exacerbated selling pressure on TSM as it hit global supply chain concerns. Market volatility was further amplified by commentary regarding the need for TSM to restructure its operations, similar to other major tech entities, to navigate the evolving trade landscape."
+  },
+  "TranAD_2025-01-27": {
+    "label": "TranAD",
+    "date": "2025-01-27",
+    "score": 0.3401293158531189,
+    "top_headline": "DeepSeek crashes Nvidia stock with prospect of cheaper AI",
+    "top_direction": "NEGATIVE",
+    "summary": "The price anomaly detected in TSM on 2025-01-27 was primarily driven by a massive market reaction to the emergence of the Chinese AI startup DeepSeek. The prospect of significantly cheaper AI model training disrupted the valuation narrative for AI hardware providers, leading to a sharp, sector-wide sell-off. TSM, as a critical foundry for AI chips, was caught in this contagion, resulting in significant downward pressure that triggered the anomaly detection model. The decline was exacerbated by technical selling as major semiconductor indices and leaders broke through key support levels."
+  },
+  "TranAD_2025-04-09": {
+    "label": "TranAD",
+    "date": "2025-04-09",
+    "score": 0.3170660138130188,
+    "top_headline": "President Trump Announces 32 % Tariffs on Taiwan . Is It Time to Sell Taiwan Semiconductor Stock ? ",
+    "top_direction": "NEGATIVE",
+    "summary": "The anomaly in TSM's price behaviour was primarily driven by a sharp escalation in geopolitical and regulatory risks centered around U.S.-Taiwan trade relations. The announcement of 32% tariffs on Taiwan, coupled with threats of a 100% tax and a potential $1 billion fine for alleged export control violations, created significant selling pressure. These factors, compounded by investigations into the company's links to Huawei, significantly undermined investor sentiment and triggered the recorded price volatility. The convergence of these negative headlines during the observed window suggests that the anomaly is a direct reflection of the market pricing in heightened operational risk for the semiconductor giant."
+  }
+}

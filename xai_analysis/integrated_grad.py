@@ -90,21 +90,29 @@ class TranADScoreWrapper(nn.Module):
 
 # ── Integrated Gradients ──────────────────────────────────────────────────────
 
-def run_integrated_gradients(wrapper, window, feature_names, n_steps=100):
+def run_integrated_gradients(wrapper, window, feature_names, n_steps=100,
+                              normal_baseline=None):
     """
     Run Integrated Gradients on a single input window.
 
     Args:
-        wrapper:       ATScoreWrapper or TranADScoreWrapper
-        window:        [1, L, C] tensor (requires_grad will be set)
-        feature_names: list of str
-        n_steps:       IG interpolation steps
+        wrapper:         ATScoreWrapper or TranADScoreWrapper
+        window:          [1, L, C] tensor (requires_grad will be set)
+        feature_names:   list of str
+        n_steps:         IG interpolation steps
+        normal_baseline: [C] tensor — feature-wise mean of normal periods.
+                         If provided, used as the IG baseline (expanded to
+                         match window shape).  Falls back to zeros.
 
     Returns:
         attr:          [L, C] numpy array of attributions
     """
     ig = IntegratedGradients(wrapper)
-    baseline = torch.zeros_like(window)
+    if normal_baseline is not None:
+        # [C] → [1, 1, C] → broadcast to [1, L, C]
+        baseline = normal_baseline.view(1, 1, -1).expand_as(window).clone()
+    else:
+        baseline = torch.zeros_like(window)
     attributions = ig.attribute(
         window,
         baselines=baseline,

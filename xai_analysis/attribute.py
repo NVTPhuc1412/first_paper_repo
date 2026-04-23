@@ -184,7 +184,7 @@ def run_attribution_pipeline(
     headlines_by_date: dict[str, list[dict]],
     out_dir: str | Path,
     models: list[dict],
-    llm_model: str = "gemini-2.5-flash",
+    llm_model: str = "gemini-3.1-flash-lite",
 ) -> str | None:
     """Run LLM attribution for all anomaly events.
 
