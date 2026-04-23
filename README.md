@@ -91,10 +91,11 @@ python -m streamlit run demo.py
 ├── xai_analysis/               # Explainability & Attribution
 │   ├── attribute.py            # Gemini LLM wrappers and prompt building
 │   ├── news_fetcher.py         # GDELT API integration
-│   ├── run_ig.py               # Captum Integrated Gradients
-│   └── plot_paper_*.py         # High-res publication-style chart generation
-├── models/                     # PyTorch model definitions (AT, TranAD, TimesNet)
-├── data/                       # Cached models, news, and XAI arrays
+│   ├── integrated_grad.py      # Captum Integrated Gradients
+│   └── timeshap.py             # TimeSHAP temporal attribution
+├── model/                      # PyTorch model definitions (AT, TranAD, TimesNet)
+├── best_saved_model/           # Cached trained model weights and thresholds
+├── data/                       # Cached news and XAI arrays
 └── results/                    # Pipeline outputs (CSVs, PNG plots, Markdown reports)
 ```
 
